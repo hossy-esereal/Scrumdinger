@@ -9,6 +9,7 @@ import SwiftUI
 
 struct DetailEditView: View {
     @State private var data = DailyScrum.Data()
+    @State private var newAttendeesName = ""
     
     var body: some View {
         Form {
@@ -20,6 +21,27 @@ struct DetailEditView: View {
                     }
                     Spacer()
                     Text("\(Int(data.lengthInMinutes)) minutes")
+                }
+            }
+            Section(header: Text("Attendees")) {
+                ForEach(data.attendees) { attendees in
+                    Text(attendees.name)
+                }
+                .onDelete { indices in
+                    data.attendees.remove(atOffsets: indices)
+                }
+                HStack {
+                    TextField("New Attendee", text: $newAttendeesName)
+                    Button(action: {
+                        withAnimation {
+                            let attendee = DailyScrum.Attendee(name: newAttendeesName)
+                            data.attendees.append(attendee)
+                            newAttendeesName = ""
+                        }
+                    }) {
+                        Image(systemName: "plus.circle.fill")
+                    }
+                    disabled(newAttendeesName.isEmpty)
                 }
             }
         }
