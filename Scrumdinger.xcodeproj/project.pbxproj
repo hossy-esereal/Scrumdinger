@@ -24,6 +24,7 @@
 		A2FC730D283B95E000E35AFD /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC730C283B95E000E35AFD /* ScrumProgressViewStyle.swift */; };
 		A2FC730F283BA60800E35AFD /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC730E283BA60800E35AFD /* ScrumTimer.swift */; };
 		A2FC7311283BAC6700E35AFD /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC7310283BAC6700E35AFD /* MeetingFooterView.swift */; };
+		A2FC7313283BB20B00E35AFD /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC7312283BB20B00E35AFD /* AVPlayer+Ding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		A2FC730C283B95E000E35AFD /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		A2FC730E283BA60800E35AFD /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		A2FC7310283BAC6700E35AFD /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		A2FC7312283BB20B00E35AFD /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				A2BC1C502837C0E9006735BE /* Theme.swift */,
 				A2FC72F72838DF2800E35AFD /* DailyScrum.swift */,
 				A2FC730E283BA60800E35AFD /* ScrumTimer.swift */,
+				A2FC7312283BB20B00E35AFD /* AVPlayer+Ding.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				A2BC1C422837B430006735BE /* ScrumdingerApp.swift in Sources */,
 				A2FC7306283A834E00E35AFD /* ThemeView.swift in Sources */,
 				A2FC72FA2838DFEE00E35AFD /* CardView.swift in Sources */,
+				A2FC7313283BB20B00E35AFD /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
