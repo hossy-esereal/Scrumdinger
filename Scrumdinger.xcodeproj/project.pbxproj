@@ -25,6 +25,7 @@
 		A2FC730F283BA60800E35AFD /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC730E283BA60800E35AFD /* ScrumTimer.swift */; };
 		A2FC7311283BAC6700E35AFD /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC7310283BAC6700E35AFD /* MeetingFooterView.swift */; };
 		A2FC7313283BB20B00E35AFD /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC7312283BB20B00E35AFD /* AVPlayer+Ding.swift */; };
+		A2FC7315283CF9B900E35AFD /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC7314283CF9B900E35AFD /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		A2FC730E283BA60800E35AFD /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		A2FC7310283BAC6700E35AFD /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		A2FC7312283BB20B00E35AFD /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		A2FC7314283CF9B900E35AFD /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				A2FC72F72838DF2800E35AFD /* DailyScrum.swift */,
 				A2FC730E283BA60800E35AFD /* ScrumTimer.swift */,
 				A2FC7312283BB20B00E35AFD /* AVPlayer+Ding.swift */,
+				A2FC7314283CF9B900E35AFD /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2FC7315283CF9B900E35AFD /* History.swift in Sources */,
 				A2FC7308283A844F00E35AFD /* ThemePicker.swift in Sources */,
 				A2FC730D283B95E000E35AFD /* ScrumProgressViewStyle.swift in Sources */,
 				A2FC7311283BAC6700E35AFD /* MeetingFooterView.swift in Sources */,
