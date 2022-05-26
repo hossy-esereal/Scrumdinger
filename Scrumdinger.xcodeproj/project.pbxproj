@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2AD2788283FBC5C004E30FA /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AD2787283FBC5C004E30FA /* ScrumStore.swift */; };
 		A2BC1C422837B430006735BE /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC1C412837B430006735BE /* ScrumdingerApp.swift */; };
 		A2BC1C442837B430006735BE /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC1C432837B430006735BE /* MeetingView.swift */; };
 		A2BC1C462837B431006735BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BC1C452837B431006735BE /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2AD2787283FBC5C004E30FA /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		A2BC1C3E2837B430006735BE /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BC1C412837B430006735BE /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		A2BC1C432837B430006735BE /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				A2FC730E283BA60800E35AFD /* ScrumTimer.swift */,
 				A2FC7312283BB20B00E35AFD /* AVPlayer+Ding.swift */,
 				A2FC7314283CF9B900E35AFD /* History.swift */,
+				A2AD2787283FBC5C004E30FA /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				A2FC7308283A844F00E35AFD /* ThemePicker.swift in Sources */,
 				A2FC730D283B95E000E35AFD /* ScrumProgressViewStyle.swift in Sources */,
 				A2FC7311283BAC6700E35AFD /* MeetingFooterView.swift in Sources */,
+				A2AD2788283FBC5C004E30FA /* ScrumStore.swift in Sources */,
 				A2FC730F283BA60800E35AFD /* ScrumTimer.swift in Sources */,
 				A2FC72F82838DF2800E35AFD /* DailyScrum.swift in Sources */,
 				A2FC7302283947BF00E35AFD /* DetailView.swift in Sources */,
