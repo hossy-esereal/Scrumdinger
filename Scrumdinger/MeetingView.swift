@@ -11,6 +11,8 @@ import AVFoundation
 struct MeetingView: View {
     @Binding var scrum: DailyScrum
     @StateObject var scrumTimer = ScrumTimer()
+    @State private var isRecording = false
+    @StateObject var speechRecognizer = SpeechRecognizer()
     
     private var player: AVPlayer { AVPlayer.sharedDingPlayer }
     
@@ -32,10 +34,15 @@ struct MeetingView: View {
                 player.seek(to: .zero)
                 player.play()
             }
+            speechRecognizer.reset()
+            speechRecognizer.transcribe()
+            isRecording = true
             scrumTimer.startScrum()
         }
         .onDisappear {
             scrumTimer.stopScrum()
+            speechRecognizer.stopTranscribing()
+            isRecording = false
             let newHisotry = History(attendees: scrum.attendees, lengthInMinutes: scrum.timer.secondsElapsed / 60)
             scrum.history.insert(newHisotry, at: 0)
         }
