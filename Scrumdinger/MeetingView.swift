@@ -43,7 +43,7 @@ struct MeetingView: View {
             scrumTimer.stopScrum()
             speechRecognizer.stopTranscribing()
             isRecording = false
-            let newHisotry = History(attendees: scrum.attendees, lengthInMinutes: scrum.timer.secondsElapsed / 60)
+            let newHisotry = History(attendees: scrum.attendees, lengthInMinutes: scrum.timer.secondsElapsed / 60, transcript: speechRecognizer.transcript)
             scrum.history.insert(newHisotry, at: 0)
         }
         .navigationBarTitleDisplayMode(.inline)
